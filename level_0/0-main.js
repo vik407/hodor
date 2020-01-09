@@ -21,7 +21,7 @@ for (var i = 0 ; i < table.rows.length; i++) {
 var setDelay = 1000;
 setTimeout(function() {
     // Fill the field
-    document.querySelector('input[name="id"]').value = "1201";
+    document.querySelector('input[name="id"]').value = HolbertonID;
     // It's only 1024 votes
     if (votes < 1024){
         // Send another one
